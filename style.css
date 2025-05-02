@@ -1,0 +1,121 @@
+/* Reset básico */
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #ffffff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #e3e3e3, #ffffff);
+  font-weight: 300;
+}
+
+.navbar-weight-font{
+  font-size: 20px;
+  align-items: center;
+}
+
+
+/* Navbar */
+.navbar {
+  padding: 1rem 0;
+}
+.nav-link.active {
+  font-weight: bold;
+}
+
+/* Tarjetas Horizontales Centradas */
+#informacion .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px; /* Espacio entre tarjetas */
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 60%;
+  max-width: 600px;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  width: 40%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-body {
+  width: 60%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Footer */
+footer {
+  padding: 1rem 0;
+  text-align: center;
+  background-color: #ffc107;
+  color: #333;
+}
+
+.social-icons a {
+  color: #333;
+  transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+}
+
+.btn-sunat {
+  background: #ffc107;
+  color: #333;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: 2px solid #333;
+  transition: all 0.3s ease;
+}
+
+.btn-sunat:hover {
+  background: #ffb300;
+  transform: scale(1.05);
+}
+.logo-fuente {
+  max-width: 150px;
+  height: auto;
+  object-fit: contain; /* Mantiene la proporción */
+  background: none; /* Evita fondos extra */
+  border-radius: 8px; /* Bordes sutiles */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombras suaves */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.logo-fuente:hover {
+  transform: scale(1.05); /* Pequeño efecto al pasar el cursor */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+.imagen-sunat {
+  max-width: 200px; /* Controla el ancho sin afectar la altura */
+  height: 400px; /* Mantiene proporción más alta */
+  object-fit: cover; /* Evita cortes o distorsiones */
+  display: block; /* Centra la imagen */
+  margin: auto; /* Espaciado uniforme */
+  border-radius: 10px; /* Bordes suaves */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+
+
